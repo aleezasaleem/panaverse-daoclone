@@ -130,8 +130,8 @@ const SpecializeTrack = () => {
             <Wrapper>
                 {/* header */}<div>
                   <div className='flex gap-2'>
-                        <h1 className='text-5xl md:text-4xl font-extrabold text_gradient'>Specialized </h1>
-                        <h1 className='text-5xl md:text-4xl font-extrabold text-zinc-800'>Tracks</h1>
+                        <h1 className='text-4xl md:text-5xl font-extrabold text_gradient'>Specialized </h1>
+                        <h1 className='text-4xl md:text-5xl font-extrabold text-zinc-800'>Tracks</h1>
                     </div>
                     <p className="mt-6 text-xl max-w-screen-sm text-neutral-700">After completing the first three quarters the participants will select one or more specializations consisting of two courses each</p></div>
                 <div className="flex mt-10 gap-x-6 gap-y-8 flex-col-reverse md:flex-row">

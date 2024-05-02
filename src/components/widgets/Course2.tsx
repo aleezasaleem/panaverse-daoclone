@@ -12,7 +12,7 @@ const Course = () => {
         <div className='flex flex-col  md:flex-row justify-between items-center  '>
           {/* left */}
           <div className='flex-1 mx-auto mt-6  lg:mt-0'>
-            <h1 className='  text_gradient font-extrabold text-5xl lg:text-6xl'>Common In All</h1>
+            <h1 className='  text_gradient font-extrabold text-4xl lg:text-5xl'>Common In All</h1>
             <h1 className='text-zinc-800 font-extrabold text-5xl lg:text-6xl'>Specializations</h1>
             <p className='text-neutral-700 text-lg mt-8 max-w-screen-sm'>Before going forward everyone has to complete three complusory quarters</p>
            <Link href={'https://portal.piaic.org/signup'}> <button className='btn mt-12'>Sign Up</button></Link>
