@@ -1,6 +1,5 @@
 import React from 'react'
 import Wrapper from '../shared/Wrapper'
-
 import Link from 'next/link';
 import { FaFacebookF, FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa';
 
@@ -26,24 +25,26 @@ const Footer = () => {
                     {/* between */}
                     <div className='flex flex-col md:mt-0 mt-6'>
                         <h4 className='text-xl font-semibold'>Specialization Tracks</h4>
-                        <a href="#" className='mt-4  cursor-pointer'>
-                            Web 3 and Metaverse
-                        </a>
-                        <a href="#" className='mt-2 cursor-pointer'>
-                            Cloud-Native Computing
-                        </a>
-                        <a href="#" className='mt-2 cursor-pointer'>
-                            Artificial Intelligence (AI) and Deep Learning
-                        </a>
-                        <a href="#" className='mt-2 cursor-pointer'>
-                            Ambient Computing and IoT
-                        </a>
-                        <a href="#" className='mt-2 cursor-pointer'>
-                            Genomics and Bioinformatics
-                        </a>
-                        <a href="#" className='mt-2 cursor-pointer'>
-                            Network Programmability and Automation
-                        </a>
+                       {/* anchor */}
+                       <a href="#" className='mt-4  cursor-pointer'>
+Web 3 and Metaverse
+</a>
+<a href="Course2" className='mt-2 cursor-pointer'>
+    Cloud-Native Computing
+</a>
+<a href="Course2" className='mt-2 cursor-pointer'>
+    Artificial Intelligence (AI) and Deep Learning
+</a>
+<a href="Course2" className='mt-2 cursor-pointer'>
+    Ambient Computing and IoT
+</a>
+<a href="Course2" className='mt-2 cursor-pointer'>
+    Genomics and Bioinformatics
+</a>
+<a href="Course2" className='mt-2 cursor-pointer'>
+    Network Programmability and Automation
+</a>
+                        
                     </div>
                     {/* right */}
                     <div className='text-zinc-800'>

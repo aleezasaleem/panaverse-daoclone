@@ -6,6 +6,7 @@ import Wrapper from '@/components/shared/Wrapper'
 import { headers } from 'next/headers'
 import { FaAngleDown } from "react-icons/fa6"
 import React from 'react'
+
 import {
     Cloud,
     CreditCard,
@@ -42,6 +43,7 @@ import {
 
    
 const Header = () => {
+
     return (
         <header className='sticky top-0 bg-[#ffffff9d] backdrop-blur-xl z-10'>
         <Wrapper>
@@ -54,7 +56,7 @@ const Header = () => {
             </div>
             <ul className="flex space-x-8 font-medium">
                 <Link href={'/'}> 
-                <li>Home</li>
+                <li className='cursor-pointer'>Home</li>
                 </Link>
                
                <Link href={'/'}  > 
@@ -72,13 +74,14 @@ const Header = () => {
           <DropdownMenuGroup >
           
             <div className='flex flex-col gap-y-2 text-neutral-700 '>
-              <span className='hover:bg-gray-200 hover:w-full hover:py-1 cursor-pointer px-4 '>Web 3 and Metaverse</span>
-              <span className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4 '>Cloud-Native Computing</span>
-              <span className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4 '>Artificial Intelligence (AI) and Deep Learning</span>
-              <span className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4 '>Ambient Computing and IoT</span>
-              <span className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4'>Genomics and Bioinformatics</span>
-              <span className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4'>Network Programmability and Automation</span>
-              </div> 
+             
+            <Link href='Course2' className='hover:bg-gray-200 hover:w-full hover:py-1 cursor-pointer px-4 '>Web 3 and Metaverse</Link>
+<Link href='Course2' className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4 '>Cloud-Native Computing</Link>
+<Link href='Course2' className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4 '>Artificial Intelligence (AI) and Deep Learning</Link>
+<Link href='Course2' className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4 '>Ambient Computing and IoT</Link>
+<Link href='Course2' className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4'>Genomics and Bioinformatics</Link>
+<Link href='Course2' className='hover:bg-gray-200 cursor-pointer  hover:w-full hover:py-1  px-4'>Network Programmability and Automation</Link>
+             </div> 
         
            
            
@@ -113,3 +116,4 @@ const Header = () => {
 }
 
 export default Header
+

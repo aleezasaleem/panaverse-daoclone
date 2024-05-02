@@ -8,6 +8,8 @@ import Web from '@/components/widgets/Web'
 
 
 
+
+
 export default function Home() {
   return (
     <>
@@ -16,6 +18,7 @@ export default function Home() {
         <CoreTrack />
         <SpecializeTrack />
         <Web />
+     
       
       </main>
     </>
